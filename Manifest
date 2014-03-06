@@ -1,0 +1,15 @@
+lib/json-odf-report.rb
+lib/json-odf-report/report.rb
+lib/json-odf-report/file.rb
+lib/json-odf-report/images.rb
+lib/json-odf-report/version.rb
+json-odf-report.gemspec
+README.textile
+test/test_report.rb
+test/mixed_nested_table_and_section.odt
+test/mixed_nested_table_and_section.odt
+test/basic.odt
+test/table_and_section.odt
+test/nested table and section.odt
+test/mixed nested table and section.odt
+Manifest

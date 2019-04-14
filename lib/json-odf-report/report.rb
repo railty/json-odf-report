@@ -54,7 +54,7 @@ module JODFReport
 
     def replace_section(node, data)
       data.each do |k, v|
-        if v.class == String or v.class == Fixnum or v.class == Float then
+        if v.class == String or v.class == Integer or v.class == Float then
           k = to_placeholder(k)
           txt = node.inner_html
           txt.gsub!(k, sanitize(v))

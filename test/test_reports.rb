@@ -2,7 +2,9 @@ require 'rubygems'
 require 'bundler/setup'
 Bundler.require
 
-LIBREOFFICE = "C:\\PortableApps\\PortableApps\\LibreOfficePortable\\LibreOfficePortable.exe --headless --invisible"
+#LIBREOFFICE = "C:\\PortableApps\\PortableApps\\LibreOfficePortable\\LibreOfficePortable.exe --headless --invisible"
+LIBREOFFICE = "C:\\LibreOfficePortable\\LibreOfficePortable.exe --headless --invisible"
+
 OUTPUT = "pdf/"
 
 def generate_report(data_file, template)

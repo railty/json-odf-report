@@ -19,7 +19,8 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency('rubyzip', "~> 0.9.9")
+  s.add_runtime_dependency('rubyzip', "~> 1.2.2")
+  s.add_runtime_dependency('zip-zip', "~> 0.3.0")
   s.add_runtime_dependency('nokogiri', ">= 1.10.2")
 
 end
